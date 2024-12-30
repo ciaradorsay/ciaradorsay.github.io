@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <style>
+        h2 {
+            text-align: left;
+        } 
+        p {
+            text-align: left;
+        } 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Andale Mono';
+	    color: #2b4219;            
             margin: 0;
             padding: 0;
         }
         nav {
-            background-color: #333;
+            background-color: #2b4219;
             padding: 1em;
             text-align: center;
         }
         nav a {
-            color: white;
+            color: #b3c2a7;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
@@ -28,8 +35,11 @@
             padding: 20px;
             text-align: center;
         }
+	.row{
+            text-align: center;
+        }
         .profile-pic {
-            border-radius: 5%;
+            border-radius: 20%;
             width: 300px;
             height: 300px;
             object-fit: cover;
@@ -37,38 +47,53 @@
         .social-icons a {
             margin: 0 10px;
             text-decoration: none;
-            color: #333;
+            color: #2b4219;
         }
         .social-icons img {
             width: 40px;
             height: 40px;
+            color: #2b4219;
         }
     </style>
+
 </head>
 <body>
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="travels.html">Travels</a>
+        <a href="data_vis.html">Data Vis</a>
+        <a href="illustrations.html">Illustrations</a>
     </nav>
 
     <div class="content">
-        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>Welcome to My Website!</h1>
-        <p>This is the home page of my personal website. Navigate through the tabs to learn more about me, my work, and how to contact me.</p>
+        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Ciara Dorsay</h1>
+        <h2>About me</h2>
+        <p>Welcome to my website. I'm from Sarasota, Florida originally, I but moved to the San Francisco Bay area in 2017 and have stuck around ever since. I'm currently working at a maritime technology start-up as a weather data analyst, and have begun dabbling as an illustrator. I spend a lot of time on the water and in the mountains sailing, spearfishing, backpacking, skiing, and foraging. When I'm not outside, you can find me shooting film, editing videos, and planning my next international adventure. Navigate through the tabs to learn more about me and see what I've been working on.</p>
+<h2>Contact</h2>
+<p><b>email: </b>ciaradorsay@gmail.com</p>
         
         <div class="social-icons">
             <a href="https://github.com/ciaradorsay" target="_blank">
-                <img src="github-icon.png" alt="GitHub">
+                <img src="images/github-icon.png" alt="GitHub">
             </a>
             <a href="https://instagram.com/ciaraonfilm" target="_blank">
-                <img src="instagram-icon.png" alt="Instagram">
+                <img src="images/instagram-icon.png" alt="Instagram">
             </a>
             <a href="https://www.linkedin.com/in/ciara-dorsay/" target="_blank">
-              <img src="linkedin-icon.png" alt="LinkedIn">
+              <img src="images/linkedin-icon.png" alt="LinkedIn">
             </a>
         </div>
     </div>
+
+<!-- Photo Grid -->
+<div class="row">
+<img src="images/camping_emigrant.jpeg" style="width:25%">
+<img src="images/bvi.jpeg" style="width:25%">
+<img src="images/newt.jpeg" style="width:25%">
+<img src="images/v15_tomales.jpeg" style="width:25%">
+<img src="images/spearfishing.jpeg" style="width:25%">
+<img src="images/photography.jpeg" style="width:25%">
+</div>
 </body>
 </html>
