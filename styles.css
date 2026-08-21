@@ -6,6 +6,13 @@
     --white-white: #ffffff;
 }
 
+@font-face {
+    font-family: 'Andale Mono';
+    src: url('fonts/andalemono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -31,4 +38,9 @@ nav a:hover {
 
 .content {
     padding: 20px;
+}
+
+/*Class for Andale Mono font*/
+.mono {
+    font-family: 'Andale Mono', monospace;
 }
