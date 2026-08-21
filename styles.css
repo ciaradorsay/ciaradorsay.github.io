@@ -1,3 +1,10 @@
+:root {
+    --light-green: #c4eb96;
+    --dark-green: #2b4219;
+    --light-blue: #87ceeb;
+    --white-white: #ffffff;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
