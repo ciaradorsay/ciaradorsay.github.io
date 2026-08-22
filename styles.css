@@ -1,11 +1,33 @@
+:root {
+    --light-green: #c4eb96;
+    --dark-green: #2b4219;
+    --grey-green: #b3c2a7;
+    --light-blue: #87ceeb;
+    --white-white: #ffffff;
+}
+
+@font-face {
+    font-family: 'Andale Mono';
+    src: url('fonts/andalemono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ciara Handwriting';
+    src: url('fonts/Ciara_handwriting-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 nav {
-    background-color: #333;
     padding: 1em;
     text-align: center;
 }
