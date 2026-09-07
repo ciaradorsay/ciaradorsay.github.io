@@ -1,3 +1,5 @@
+/*Colors*/
+
 :root {
     --light-green: #c4eb96;
     --dark-green: #2b4219;
@@ -6,6 +8,7 @@
     --white-white: #ffffff;
 }
 
+/*Fonts*/
 @font-face {
     font-family: 'Andale Mono';
     src: url('fonts/andalemono.woff') format('woff');
@@ -19,7 +22,55 @@
     font-weight: normal;
     font-style: normal;
 }
+/*How to handle social icons*/
+.social-icons {
+    text-align: center;
+}
 
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+
+    background-color: var(--light-green);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+}
+
+.github-icon {
+    -webkit-mask-image: url("images/Ciara_Github.svg");
+    mask-image: url("images/Ciara_Github.svg");
+}
+
+.instagram-icon {
+    -webkit-mask-image: url("images/Ciara_Instagram.svg");
+    mask-image: url("images/Ciara_Instagram.svg");
+}
+
+.linkedin-icon {
+    -webkit-mask-image: url("images/Ciara_LinkedIn.svg");
+    mask-image: url("images/Ciara_LinkedIn.svg");
+}
+
+.social-icon:hover {
+    background-color: var(--grey-green);
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
